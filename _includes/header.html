@@ -7,15 +7,17 @@
         <a href="#menu" class="menuToggle"><span>Menu</span></a>
         <div id="menu">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            {% for my_page in site.pages %}
-            {% if my_page.title %}
-            <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-            <li><a href="#">Sign Up</a></li>
-            <li><a href="#">Log In</a></li>
-            <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"
+            <li><a href="{{ site.url }}/index.html">Home</a></li>
+            <li><a href="{{ site.url }}/about/index.html">About Us</a></li>
+            <li><a href="{{ site.url }}/contact/index.html">Contact Us</a></li>
+            <li><a href="{{ site.url }}/inventory/index.html">Inventory</a></li>
+            <li><a href="{{ site.url }}/challenge/index.html">Challenge</a></li>
+            <li><a href="{{ site.url }}/projects/index.html">Projects</a></li>
+            <li><a href="{{ site.url }}/blog/index.html">Blog</a></li>
+            <li><a href="{{ site.url }}/trivia/index.html">Trivia</a></li>
+            <li><a href="{{ site.url }}/gallery/index.html">Gallery</a></li>
+            <li><a href="{{ site.url }}/presentations/index.html">Presentations</a></li>
+            <li><a href="{{ site.url }}/feed.xml" | prepend: site.baseurl }}"
                    class="icon fa-feed"> RSS Feed</a></li>
           </ul>
         </div>
