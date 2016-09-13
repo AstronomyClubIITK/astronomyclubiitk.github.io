@@ -22,6 +22,7 @@ You will know the answer with simple class 10th Physics. The stars are practical
 ### Q. Is it possible to see the colour of stars and planets as shown in some of the popular photographs through a terrestrial telescope?
 
 As such it is not impossible, but if you wish to see the colors of the stars or the planets through a terrestrial telescope then it has to be of a very high power. Moreover the atmosphere often plays 'tricks' and quite often the color as seen from the Earth is not the actual colour. The colourful photographs as available commonly in the market are more or less some artist's perception of how the stars or the planets should appear!! Sometimes, they are also some attractive versions of the snaps sent by the extra-terrestrial telescopes like the HST, Galileo and the like.
+
 ### Q. What are messiers?
 
 In 18th century comet-hunting was a respected profession. A French comet-hunter named Charles Messier was trying to look for some comets and in the course he listed some of the celestial objects, which were not comets but were likely to to be confused with a comet. These objects were later called messier objects and Messier is today more famous for this catalogue of objects (which he was basically trying to discard!) rather than the comets he hunted. He initially had prepared a list of 45 objects and the list now contains 110 objects (named M1 to M110). Messier catalogue is one of the most popular catalogue with amateur astronomers.
