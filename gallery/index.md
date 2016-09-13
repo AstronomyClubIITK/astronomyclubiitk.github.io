@@ -4,12 +4,18 @@ title: Galleria
 images:
     -   image_path: images/pic01.jpg
         id: 1
+        description: description/pic01.html
     -   image_path: images/pic02.jpg
         id: 2
+        description: description/pic01.html
     -   image_path: images/pic03.jpg
         id: 3
+        description: description/pic01.html
 ---
-<h4>Please visit gallery only on the desktop</h4>
+Here are a few of the many images we click at astronomy club. 
+
+
+(For best experience please use a desktop browser)
 <div style="height:1080px; display:block;overflow:scroll">
 <ul class="slides ">
 {% for image in page.images %}
@@ -19,7 +25,7 @@ images:
             <img src="{{image.image_path}}"/>
             <div class="row">
                 <div class="col-md-8">
-                    {{image.description}}
+                    <iframe width="100%" height="360px" display="block" overflow="scroll" src="{{ image.description }}" ></iframe>
                 </div>
                 <div class="col-md-4">
                     <div id="fb_comments">
