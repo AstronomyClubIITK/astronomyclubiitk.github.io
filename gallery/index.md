@@ -11,22 +11,22 @@ images:
 ---
 
 
-<div class="row">
 <ul class="slides">
 {% for image in page.images %}
     <input type="radio" name="radio-btn" id="{{ image.id }}" checked />
+    
     <li class="slide-container">
-		<div class="slide">
-			<img src="{{image.image_path}}" />
-        </div>
-		<div class="nav">
-            {% if image.prev %}<label for="{{ image.prev.id }}" class="prev">&#x2039;</label>{% endif %}
-			{% if image.next %}<label for="{{image.next.id}}" class="next">&#x2039;</label>{% endif %}
-		</div>
-        <div id="fb_comments" >
-            <div class="fb-comments" data-href="{{ site.url }}/gallery/{{ image.image_path }}" data-colorscheme="dark" data-num-posts="4" data-width="100%"></div>
-        </div>
+            <div class="row">
+                
+                <div class="slide">
+                    <img src="{{image.image_path}}" width="100%"/>
+                </div>
+                <div class="nav">
+                    {% if image.id != 1 %}<label for="{{ image.id | plus: -1}}" class="prev">&#x2039;</label>{% endif %}
+                    {% if image.id != 3 %}<label for="{{image.id | plus: 1}}" class="next">&#x203a;</label>{% endif %}
+                </div>
+                
+            </div>
     </li>
 {% endfor %}
 </ul>
-</div>
