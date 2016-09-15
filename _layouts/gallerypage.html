@@ -4,13 +4,12 @@ layout: default
 <article id="main">
   <section class="wrapper style5">
     <div class="inner">
-    
-    <span class="image fit"><img src="{{ page.img }}" alt="" /></span>
-    <a href="{{ site.url }}/gallery"<button class="btn btn-default">back</button></a>
+    <h2>{{ page.title }}</h2>
+    <span class="image fit"><img src="images/{{ page.img }}" alt="" /></span>
+    <center><a href="{{ site.url }}/gallery"<button class="btn btn-default">back</button></a></center>
       {{ content }}
-    
     <div id="fb_comments" style="padding-left:5%;padding-right:5%;">
-        <div class="fb-comments" data-href="{{ site.url }}/gallery/{{ page.title }}" data-colorscheme="light" data-num-posts="4" data-width="100%"></div>
+        <div class="fb-comments" data-href="{{ site.url }}/gallery/images/{{ page.img }}" data-colorscheme="light" data-num-posts="4" data-width="100%"></div>
     </div>
     </div>
   </section>
