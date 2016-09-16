@@ -8,7 +8,7 @@ title: Contact Us
         <iframe src="https://docs.google.com/forms/d/1fmVIMAIWBlQewWmGbRNCMFPlr3rzZrzU1GU7D9ZpXKI/viewform?embedded=true" height="480px" width="100%">Loading...</iframe>
     </div>
     <div class="col-md-6">
-        <iframe  width="100%" height="320px" scrolling="no" marginheight="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;ll=26.504806,80.229129&amp;spn=0.01628,0.025663&amp;z=18&amp;iwloc=A&amp;output=embed"></iframe>
+        <iframe  width="100%" height="320px" scrolling="no" marginheight="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;ll=26.504806,80.229129&amp;spn=0.01628,0.025663&amp;z=18&amp;iwloc=A&amp;output=embed"></iframe>
         Room 401 <br>
         Roof Top <br>
         New Sac <br>
