@@ -8,15 +8,15 @@ owner: Astronomy Club IIT Kanpur # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: astronomyclubiitk@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
-# url: "https://astronomyclubiitk.github.io"
+# url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+url: "https://astronomyclubiitk.github.io"
 social:
-  # twitter: https://twitter.com/<username>
-  # github: https://github.com/<username>
+  twitter: https://twitter.com/astroclubiitk
+  github: https://github.com/astronomyclubiitk
   # linkedin-square: https://linkedin.com/in/<username>
   facebook-official: https://www.facebook.com/AstroClubIITK/
   # google-plus-square: https://plus.google.com/u/0/+<username>
-  email: /contact/
+  email: mailto:astronomyclubiitk@gmail.com
   #flickr:
   #instagram:
   youtube-square: https://www.youtube.com/user/AstronomyClubIITK
@@ -65,4 +65,7 @@ collections:
     output: true
   challenges:
     permalink: /challenges/:path
+    output: true
+  projects:
+    permalink: /projects/:path
     output: true
