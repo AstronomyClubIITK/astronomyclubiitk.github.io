@@ -10,7 +10,7 @@ layout: page
         {{ image.content }}
     </div>
     <div class="col-md-8">
-        <a href="{{ image.filename }}"><span class="image fit"><img src="images/{{ image.img }}" alt="" /></span></a>
+        <a href="{{ site.url }}/gallery/{{ image.imageid }}"><span class="image fit"><img src="images/{{ image.img }}" alt="" /></span></a>
     </div>
 </div>
 <a href="{{ site.url }}/gallery/{{ image.imageid }}"><button class="btn btn-default">comments >></button></a>
