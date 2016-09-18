@@ -60,6 +60,9 @@ collections:
   gallery:
     permalink: /gallery/:path
     output: true
+  astrophotographs:
+    permalink: /astrophotographs/:path
+    output: true
   presentations:
     permalink: /presentations/:path
     output: true
