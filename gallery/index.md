@@ -1,5 +1,5 @@
 ---
-title: Gallery
+title: Photo Gallery
 layout: page
 ---
 
