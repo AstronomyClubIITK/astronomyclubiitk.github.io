@@ -9,7 +9,7 @@ Also take a look at Beginners Guide.
 
 ### Q. What are constellations?
 
-In ancient time, people noticed some prominent patterns of stars in the sky. The imagined these patterns to represent some mythological characters and framed many stories around them. These prominent patterns were called constellation. According to the modern definition, the whole sky has been divided into 88 parts and each of these parts is called a constellation. Note that according to this definition the constellation is a region of the sky and not just some prominent stars, though even today we use these prominent patterns to locate the regions in the sky. From Earth, the stars in a constellation may look fairly close to one another. In reality, they are extremely far apart.
+In ancient times, people noticed some prominent patterns of stars in the sky. The imagined these patterns to represent some mythological characters and framed many stories around them. These prominent patterns were called constellation. According to the modern definition, the whole sky has been divided into 88 parts and each of these parts is called a constellation. Note that according to this definition the constellation is a region of the sky and not just some prominent stars, though even today we use these prominent patterns to locate the regions in the sky. From Earth, the stars in a constellation may look fairly close to one another. In reality, they are extremely far apart.
 
 ### Q. What is the significance of pole stars?
 
