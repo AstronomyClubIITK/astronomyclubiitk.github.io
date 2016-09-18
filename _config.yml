@@ -72,3 +72,6 @@ collections:
   contacts:
     permalink: /contacts/:path
     output: true
+  events:
+    permalink: /events/:path
+    output: true

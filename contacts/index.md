@@ -20,7 +20,29 @@ title: Contact Us
 <div class="row">
 {% for contact in site.contacts %}
     {% if contact.coordinator  %}
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-3 col-lg-3">
+            {% if contact.img %}
+                <img class="img img-circle" src="{{ site.url }}/contacts/images/{{ contact.img }}" width="100%" />
+            {% else %}
+                <img class="img img-circle" src="{{ site.url }}/contacts/images/placeholder.jpg" width="100%"/>
+            {% endif %}
+            <center>{{ contact.name }}
+            {% if contact.phone %}<br>Phone: {{contact.phone}}{%endif%}
+            {% if contact.mail %}<br><a href="mailto:{{contact.mail}}" target="_blank">{{contact.mail}}</a>{%endif%}
+            {% if contact.facebook %}<br><a target="_blank" href="{{contact.facebook}}" class="icon fa-facebook"></a>{% endif %}
+            {% if contact.twitter %}<a target="_blank" href="{{contact.twitter}}" class="icon fa-twitter"></a>{% endif %}
+            {% if contact.github %}<a target="_blank" href="{{contact.github}}" class="icon fa-github"></a>{% endif %}
+            </center>
+        </div>
+    {% endif %}
+{% endfor %}
+</div>
+<hr>
+<h2>Secretaries</h2>
+<div class="row">
+{% for contact in site.contacts %}
+    {% if contact.secretary  %}
+        <div class="col-md-3 col-sm-3 col-lg-3">
             {% if contact.img %}
                 <img class="img img-circle" src="{{ site.url }}/contacts/images/{{ contact.img }}" width="100%" />
             {% else %}
@@ -42,8 +64,9 @@ title: Contact Us
 <div class="row">
 {% for contact in site.contacts %}
     {% if contact.coordinator  %}
+    {% elsif contact.secretary %}
     {% else %}
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-3 col-lg-3">
             {% if contact.img %}
                 <img class="img img-circle" src="{{ site.url }}/contacts/images/{{ contact.img }}" width="100%" />
             {% else %}
