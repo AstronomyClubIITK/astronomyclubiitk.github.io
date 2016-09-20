@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article id="main">
+  <section class="wrapper style5">
+    <div class="inner">
+    <h2>{{ page.title }}</h2>
+    {{page.date | date: '%B %d, %Y'}}
+    {% if page.author %}<br><a href="{{ site.url }}/contacts/#{{ page.authorid }}" target="_blank">{{ page.author }}</a>{%endif%}
+    {% if page.img %}<span class="image fit"><img src="{{ site.url }}/postimages/{{ page.img }}" alt="" /></span>{%endif%}
+    {% if page.state == "hidden" %}<center><a href="{{ site.url }}/blog/hidden"<button class="btn btn-default"><< back</button></a></center>
+    <center class="well">URL: {{site.url}}{{page.url}}</center>
+    {%else%}<center><a href="{{ site.url }}/blog"<button class="btn btn-default"><< back</button></a></center>{% endif %}
+      
+      <hr>
+      {{ content }}
+    <div id="fb_comments" style="padding-left:5%;padding-right:5%;">
+        <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-colorscheme="light" data-num-posts="4" data-width="100%"></div>
+    </div>
+    </div>
+  </section>
+</article>

@@ -56,6 +56,7 @@ markdown: kramdown
 #sass:
 #  style: compressed
 
+permalink: /posts/:year/:month/:day/:title/
 collections:
   gallery:
     permalink: /gallery/:path

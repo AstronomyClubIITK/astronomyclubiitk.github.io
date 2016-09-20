@@ -20,7 +20,7 @@ title: Contact Us
 <div class="row">
 {% for contact in site.contacts %}
     {% if contact.coordinator  %}
-        <div class="col-md-3 col-sm-3 col-lg-3">
+        <div id="{{ contact.authorid }}" class="col-md-3 col-sm-3 col-lg-3">
             {% if contact.img %}
                 <img class="img img-circle" src="{{ site.url }}/contacts/images/{{ contact.img }}" width="100%" />
             {% else %}
@@ -42,7 +42,7 @@ title: Contact Us
 <div class="row">
 {% for contact in site.contacts %}
     {% if contact.secretary  %}
-        <div class="col-md-3 col-sm-3 col-lg-3">
+        <div id="{{ contact.authorid }}" class="col-md-3 col-sm-3 col-lg-3">
             {% if contact.img %}
                 <img class="img img-circle" src="{{ site.url }}/contacts/images/{{ contact.img }}" width="100%" />
             {% else %}
@@ -66,7 +66,7 @@ title: Contact Us
     {% if contact.coordinator  %}
     {% elsif contact.secretary %}
     {% else %}
-        <div class="col-md-3 col-sm-3 col-lg-3">
+        <div id="{{ contact.authorid }}" class="col-md-3 col-sm-3 col-lg-3">
             {% if contact.img %}
                 <img class="img img-circle" src="{{ site.url }}/contacts/images/{{ contact.img }}" width="100%" />
             {% else %}
