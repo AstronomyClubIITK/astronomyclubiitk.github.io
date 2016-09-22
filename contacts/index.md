@@ -21,11 +21,13 @@ title: Contact Us
 {% for contact in site.contacts %}
     {% if contact.coordinator  %}
         <div id="{{ contact.authorid }}" class="col-md-3 col-sm-3 col-lg-3">
+            <center>
             {% if contact.img %}
-                <img class="img img-circle" src="{{ site.url }}/contacts/images/{{ contact.img }}" width="100%" />
+                <img class="img img-circle" src="{{ site.url }}/contacts/images/{{ contact.img }}" width="200px" height="200px" />
             {% else %}
-                <img class="img img-circle" src="{{ site.url }}/contacts/images/placeholder.jpg" width="100%"/>
+                <img class="img img-circle" src="{{ site.url }}/contacts/images/placeholder.jpg" width="200px" height="200px"/>
             {% endif %}
+            </center>
             <center>{{ contact.name }}
             {% if contact.phone %}<br>Phone: {{contact.phone}}{%endif%}
             {% if contact.mail %}<br><a href="mailto:{{contact.mail}}" target="_blank">{{contact.mail}}</a>{%endif%}
@@ -43,11 +45,13 @@ title: Contact Us
 {% for contact in site.contacts %}
     {% if contact.secretary  %}
         <div id="{{ contact.authorid }}" class="col-md-3 col-sm-3 col-lg-3">
+            <center>
             {% if contact.img %}
-                <img class="img img-circle" src="{{ site.url }}/contacts/images/{{ contact.img }}" width="100%" />
+                <img class="img img-circle" src="{{ site.url }}/contacts/images/{{ contact.img }}" width="200px" height="200px" />
             {% else %}
-                <img class="img img-circle" src="{{ site.url }}/contacts/images/placeholder.jpg" width="100%"/>
+                <img class="img img-circle" src="{{ site.url }}/contacts/images/placeholder.jpg" width="200px" height="200px"/>
             {% endif %}
+            </center>
             <center>{{ contact.name }}
             {% if contact.phone %}<br>Phone: {{contact.phone}}{%endif%}
             {% if contact.mail %}<br><a href="mailto:{{contact.mail}}" target="_blank">{{contact.mail}}</a>{%endif%}
@@ -67,11 +71,13 @@ title: Contact Us
     {% elsif contact.secretary %}
     {% else %}
         <div id="{{ contact.authorid }}" class="col-md-3 col-sm-3 col-lg-3">
+            <center>
             {% if contact.img %}
-                <img class="img img-circle" src="{{ site.url }}/contacts/images/{{ contact.img }}" width="100%" />
+                <img class="img img-circle" src="{{ site.url }}/contacts/images/{{ contact.img }}" width="200px" height="200px" />
             {% else %}
-                <img class="img img-circle" src="{{ site.url }}/contacts/images/placeholder.jpg" width="100%"/>
+                <img class="img img-circle" src="{{ site.url }}/contacts/images/placeholder.jpg" width="200px" height="200px"/>
             {% endif %}
+            </center>
             <center>{{ contact.name }}
             {% if contact.phone %}<br>Phone: {{contact.phone}}{%endif%}
             {% if contact.mail %}<br><a href="mailto:{{contact.mail}}" target="_blank">{{contact.mail}}</a>{%endif%}
