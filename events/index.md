@@ -15,7 +15,7 @@ title: Events
 
 ### Completed Events
 {% for event in site.events %}
-{% if event.state == "completed" %}
+{% if event.state == "past" %}
 >
 #### {{ event.title }}
 {{ event.abstract }}<br>
